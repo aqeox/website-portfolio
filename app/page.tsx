@@ -53,7 +53,7 @@ export default function Home(): JSX.Element {
         I am currently a UI/UX Designer at Bateriku who prioritizes our users, ideates new solutions, and designs beautiful experiences.
         </p>
 
-        <Link href="" target="_blank" prefetch={false}>
+        <Link href="https://drive.google.com/file/d/1_d45ytjbqF_ETI4CCn0I4ZuOAYk6NMl3/view?usp=sharing" target="_blank" prefetch={false}>
           <Button as="span">
             <FeatherLink className="mr-2" size={18} /> View My Resume
           </Button>
@@ -91,7 +91,7 @@ export default function Home(): JSX.Element {
             src={TravelryImage}
             alt="Travelry app screenshots"
             extraContent={<Travelry />}
-            githubLink="https://github.com/AustinWildgrube/travelry"
+            githubLink="https://github.com/aqeox"
           />
 
           <Figure
@@ -100,12 +100,12 @@ export default function Home(): JSX.Element {
             battery and supply organizations. This system to track all the supplier live stock available and sales for the company"
 
             technologies={['HTML', 'CSS', 'Laravel']}
-            dates="July 2021 - Present"
+            dates="March 2023 - Present"
             type="work"
             src={CampfireImage}
             alt="Campfire Design system documentation homepage"
             extraContent={<Campfire />}
-            externalLink="https://ui.wldgrb.com"
+            externalLink="https://bateriku.com/brace"
           />
 
           <Figure
@@ -113,13 +113,13 @@ export default function Home(): JSX.Element {
             description="The Slurp Food System is an innovative and multifaceted solution designed to enhance the management and operation of food-related establishments, such as restaurants, cafes services. 
             This comprehensive system integrates various features to optimize every aspect of the foodservice industry, from order processing and kitchen management to customer engagement and analytics."
             technologies={['Next.js', 'Golang',  'Pocketbase', 'Docker']}
-            dates="August 2022 - February 2023"
+            dates="August 2023 - Present"
             type="personal"
             src={EnfrontImage}
             alt="Enfront dashboard screenshot"
             extraContent={<Enfront />}
-            githubLink="https://github.com/Enfront"
-            externalLink="https://enfront.io"
+            githubLink="https://github.com/aqeox"
+            externalLink="https://blurpp.xyz"
           />
 
           <Figure
@@ -129,11 +129,12 @@ export default function Home(): JSX.Element {
             area or worldwide. This was a fantastic opportunity for me to showcase my versatility and test out new technologies and designs.
             I am thrilled to say we took first place, and it is definitely one of my most significant achievements during my time at Momentus."
             technologies={['Nextjs', 'Tailwind']}
-            dates="December 2022 - January 2023"
+            dates="August 2023 - Present"
             type="personal"
             src={VenuelyticsImage}
             alt="Venuelytics dashboard screenshot"
             extraContent={<Venuelytics />}
+            externalLink="https://khir-khalid.vercel.app/"
           />
 
           <Figure
@@ -143,13 +144,13 @@ export default function Home(): JSX.Element {
             quick, modern, and responsive website was an important step in becoming the best St. Louis has to
             offer."
             technologies={['HTML', 'CSS', 'JS']}
-            dates="June 2021 - August 2021"
+            dates="August 2023 - Present"
             type="work"
             src={ForgeImage}
             alt="Screenshot of The Forge landing page"
             extraContent={<Forge />}
-            githubLink="https://github.com/AustinWildgrube/forge"
-            externalLink="https://theforge-media.com"
+            githubLink="https://github.com/aqeox"
+            externalLink="http://dev.manage.bplaz.com/"
             figmaLink="https://www.figma.com/file/sqssQH5kZfAEgXlRgpQyqw/Larson?node-id=0%3A1&t=4c02hVeTeKuW4YzU-1"
           />
         </Accordion>
