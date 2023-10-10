@@ -57,9 +57,9 @@ const lausanne = localFont({
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} ${lausanne.variable} relative`}>
+      <body className={`${inter.variable} ${lausanne.variable} relative bg-stone-50`}>
         <Navigation />
-        <main className="container mx-auto my-24 px-8">{children}</main>
+        <main className="container mx-auto my-14">{children}</main>
         <Spotify />
         <Footer />
         <Analytics />
